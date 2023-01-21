@@ -9,6 +9,7 @@ const Header = () => {
             <div className={styles.navitems}>
                 <Link className={styles.sp} href="/about">About</Link>
                 <Link className={styles.sp} href="/contact">Contact</Link>
+                <Link className={styles.sp} href="/posts">Posts</Link>
             </div>
         </div>
      );

@@ -1,7 +1,10 @@
-
+import Meta from '../components/Meta'
 const About = () => {
     return ( 
-        <h1>This is about page</h1>
+        <div>
+            <Meta title="About Page" keywords="about, about page" description="this is about page" />
+            <h1>This is about page</h1>
+        </div>
      );
 }
  
